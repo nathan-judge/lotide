@@ -1,10 +1,4 @@
-const assertEqual = function (actual, expected) {
-    if (actual === expected) {
-        console.log(`✅✅✅ Assertion Passed: ${actual} === ${expected}`);
-    } else {
-        console.log(`🛑🛑🛑 Assertion Failed: ${actual} !== ${expected} `);
-    }
-};
+const assertEqual = require('./assertEqual');
 // make a if stat b4 for loop if array1 is bigger than array2 
 const eqArrays = function (array1, array2) {
     if (array1.length > array2.length) {
