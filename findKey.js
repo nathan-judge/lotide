@@ -1,4 +1,5 @@
 const assertEqual = require('./assertEqual');
+
 const findKey = function (object, callback) {
     const result = Object.keys(object);
     for (let key of result) {
